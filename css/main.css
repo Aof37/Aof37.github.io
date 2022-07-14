@@ -1,0 +1,69 @@
+body{
+    font-family:'IBM Plex Sans Thai', sans-serif;
+}
+.container{
+    background-image: linear-gradient(to right, rgba(255,255,255,0.7), rgba(255,255,255,0.3)), url('https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    min-height: 100vh;
+    padding: 128px;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 48px;
+    }
+}
+.content{
+    max-width: 5s00px;
+}
+.name{
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .name{
+        font-size: 36px;
+    }
+}
+.job{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.about{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(69, 67, 67);
+    margin-bottom: 12px;
+}
+
+.avatar{
+    margin-bottom: 20px;
+    border-radius: 120px;
+    object-fit: cover;
+    box-shadow: 10px 10px 5px 0px black;
+}
+
+.contact-list{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.icon-item{
+    margin-right: 12px;
+    width: 16px;
+}
+
+    
+.button{
+    font-size: 12px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    margin-top: 50px;
+}
